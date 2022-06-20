@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    height: 100vh;
+}
+
+.header{
+    width: 70%;
+    border: 0.2rem solid rgb(194, 191, 191);
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+}
+.header h1{
+    font-size: 2rem;
+}
+.left-header{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-header{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    margin-top: 7em;
+    height: 45vh;
+}
+
+.main{
+    text-align: center;
+    position: relative;
+}
+
+.game-img{
+    width: 10rem;
+}
+
+.tria{  
+    position: absolute;
+    top: 011px;
+    left: 35rem;
+    /* z-index: 1; */
+}
+
+.paper-img{
+    position: absolute;
+    top: -3.375rem;
+    left: 30rem;
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 1rem solid #556FF8;
+}
+.sci-img{
+    position: absolute;
+    top: -3.375rem;
+    left: 49rem;
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 1rem solid #F3A715;
+}
+.rock-img{
+    position: absolute;
+    top: 141px;
+    left: 40rem;
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 1rem solid #E03C5E;
+}
+
+.rules{
+    display: flex;
+    justify-content: space-around;
+}
+.rules p{
+    border: 0.15rem solid rgb(194, 191, 191);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    color: rgb(194, 191, 191);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    left: auto;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 1310px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 30rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 25rem;
+    }
+    .sci-img{
+        left: 44rem;
+    }
+    .rock-img{
+        left: 35rem;
+    }
+}
+@media screen and (max-width: 1208px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 27rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 22rem;
+    }
+    .sci-img{
+        left: 41rem;
+    }
+    .rock-img{
+        left: 32rem;
+    }
+}
+@media screen and (max-width: 1113px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 24rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 19rem;
+    }
+    .sci-img{
+        left: 38rem;
+    }
+    .rock-img{
+        left: 29rem;
+    }
+}
+@media screen and (max-width: 1033px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 22rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 17rem;
+    }
+    .sci-img{
+        left: 36rem;
+    }
+    .rock-img{
+        left: 27rem;
+    }
+}
+@media screen and (max-width: 931px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 19rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 14rem;
+    }
+    .sci-img{
+        left: 33rem;
+    }
+    .rock-img{
+        left: 24rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 15rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 9rem;
+    }
+    .sci-img{
+        left: 28rem;
+    }
+    .rock-img{
+        left: 19rem;
+    }
+}
+@media screen and (max-width: 696px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 11rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 6rem;
+    }
+    .sci-img{
+        left: 24rem;
+    }
+    .rock-img{
+        left: 15rem;
+    }
+}
+@media screen and (max-width: 486px){
+    .header h1{
+        font-size: 1.5rem;
+    }
+    .right-header{
+        padding: 0.2em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 8rem;
+        /* z-index: 1; */
+    }
+    .tri-img{
+        height: 14rem;
+        width: 14rem;
+    }
+    .paper-img{
+        left: 4.8rem;
+        height: 7rem;
+        width: 7rem;
+        padding: 1rem;
+    }
+    .sci-img{
+        left: 18rem;
+        height: 7rem;
+        width: 7rem;
+        padding: 1rem;
+    }
+    .rock-img{
+        left: 11rem;
+        height: 7rem;
+        width: 7rem;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .header h1{
+        font-size: 1rem;
+    }
+    .right-header{
+        padding: 0.2em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 11rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 6rem;
+    }
+    .sci-img{
+        left: 24rem;
+    }
+    .rock-img{
+        left: 15rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .header h1{
+        font-size: 1rem;
+    }
+    .right-header{
+        padding: 0.2em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 11rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 6rem;
+    }
+    .sci-img{
+        left: 24rem;
+    }
+    .rock-img{
+        left: 15rem;
+    }
+}
