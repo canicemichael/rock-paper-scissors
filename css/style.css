@@ -209,6 +209,23 @@ main{
         left: 24rem;
     }
 }
+@media screen and (max-width: 820px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 15rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 10rem;
+    }
+    .sci-img{
+        left: 29rem;
+    }
+    .rock-img{
+        left: 20rem;
+    }
+}
 @media screen and (max-width: 768px){
     .tria{  
         position: absolute;
@@ -241,6 +258,23 @@ main{
     }
     .rock-img{
         left: 15rem;
+    }
+}
+@media screen and (max-width: 540px){
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 7rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 2rem;
+    }
+    .sci-img{
+        left: 20rem;
+    }
+    .rock-img{
+        left: 11rem;
     }
 }
 @media screen and (max-width: 486px){
@@ -281,7 +315,7 @@ main{
         padding: 1rem;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
     .header h1{
         font-size: 1rem;
     }
@@ -293,19 +327,20 @@ main{
     .tria{  
         position: absolute;
         top: 011px;
-        left: 11rem;
+        left: 5rem;
         /* z-index: 1; */
     }
     .paper-img{
-        left: 6rem;
+        left: 2rem;
     }
     .sci-img{
-        left: 24rem;
+        left: 15rem;
     }
     .rock-img{
-        left: 15rem;
+        left: 8rem;
     }
 }
+
 @media screen and (max-width: 375px){
     .header h1{
         font-size: 1rem;
@@ -318,16 +353,65 @@ main{
     .tria{  
         position: absolute;
         top: 011px;
-        left: 11rem;
+        left: 5rem;
         /* z-index: 1; */
     }
     .paper-img{
-        left: 6rem;
+        left: 2rem;
     }
     .sci-img{
-        left: 24rem;
+        left: 15rem;
     }
     .rock-img{
-        left: 15rem;
+        left: 8rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .header h1{
+        font-size: 1rem;
+    }
+    .right-header{
+        padding: 0.2em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 5rem;
+        /* z-index: 1; */
+    }
+    .paper-img{
+        left: 2rem;
+    }
+    .sci-img{
+        left: 14rem;
+    }
+    .rock-img{
+        left: 8rem;
+    }
+}
+@media screen and (max-width: 280px){
+    .header h1{
+        font-size: .8rem;
+    }
+    .right-header{
+        padding: 0.2em;
+        padding-left: .2rem;
+        padding-right: .2rem;
+    }
+    .tria{  
+        position: absolute;
+        top: 011px;
+        left: 2rem;
+    }
+    .paper-img{
+        left: 1rem;
+    }
+    .sci-img{
+        left: 9rem;
+    }
+    .rock-img{
+        left: 5rem;
     }
 }
